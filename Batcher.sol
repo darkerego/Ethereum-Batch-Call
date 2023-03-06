@@ -4,7 +4,7 @@ pragma experimental ABIEncoderV2;
 import "libs/IERC20.sol";
 
 
-contract Batch{
+contract Batcher{
     address private admin;
     address public thisAddress;
 
