@@ -30,6 +30,7 @@ contract Batcher{
         }
 
     function recoverTokens(address tokenAddress) external {
+        auth();
         /*Allows the admin to withdraw ERC20 tokens*/
          uint256 b = IERC20(tokenAddress).balanceOf(thisAddress);
         // TODO: the balance in assembly, maybe depending on gas effeciency
