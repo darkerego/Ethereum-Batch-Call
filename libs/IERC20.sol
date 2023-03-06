@@ -2,7 +2,7 @@
 pragma solidity ^0.8.17;
 interface IERC20 {
 	//function totalSupply() external view returns (uint);
-  //function decimals() external view returns (uint8);
+        //function decimals() external view returns (uint8);
 	function balanceOf(address account) external view returns (uint);
 	//function transfer(address recipient, uint amount) external returns (bool);
 	//function allowance(address owner, address spender) external view returns (uint);
